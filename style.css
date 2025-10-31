@@ -1,0 +1,40 @@
+
+
+
+body{
+    background-color: #F8F300;
+    height: 100vh;
+    padding: 70px;
+    font-family: Righteous, sans-serif;
+    color: #000;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    border-bottom: 1px solid #000;
+  }
+
+  .cabeca{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+.righteous-regular {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .social{
+      height: 30px;
+      width: 30px;
+      display: flex;
+  }
+  
+
