@@ -18,11 +18,13 @@ header{
     border-bottom: 1px solid #000;
   }
 
-  .cabeca{
-    display: flex;
+  .cabeca li{
+    list-style: none;
+    display: inline;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
+     gap: 500px;
   }
 
 .righteous-regular {
@@ -30,11 +32,38 @@ header{
     font-weight: 400;
     font-style: normal;
   }
-  
   .social{
+      display: flex;
+      gap: 20px;
+      filter: grayscale();
+  }
+
+  .social img{
       height: 30px;
       width: 30px;
       display: flex;
+      justify-content: flex-end;
+   
+  }
+
+  .V {
+    height: 550px;
+    display: flex;
+    align-items: center;   
+    justify-content: center; 
+    height: 100vh; 
+    bottom: 0;
   }
   
+.quadrado{
+    height: 600px;
+    width: 600px;
+    background-color: red;
+    display: flex;
+    margin-top:400px;
+    margin-left:30px;
+    position: absolute;
+    z-index: -1;
 
+    
+}
